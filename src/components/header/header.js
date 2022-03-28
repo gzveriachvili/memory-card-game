@@ -7,11 +7,13 @@ const Header = () => {
       <header>
         <div className='title instruction'>
           <h1>Memory Card</h1>
+
           <p>
             Get points by clicking on an image, but don't click on the same
             image twice!
           </p>
         </div>
+
         <div className='score'>
           <h3>
             <ImMeter></ImMeter>Score: <span className='current-score'>0</span>{' '}

@@ -15,9 +15,18 @@ import calvin from '../../assets/img/Calvin.webp';
 import ordell from '../../assets/img/Ordell.webp';
 
 const Main = () => {
-  const [arrIndex, setArrIndex] = useState([
-    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
-  ]);
+  const initialRandomArray = () => {
+    let arr = [];
+    while (arr.length < 12) {
+      let num = Math.floor(Math.random() * 12);
+      if (arr.indexOf(num) === -1) {
+        arr.push(num);
+      }
+    }
+    return arr;
+  };
+
+  const [arrIndex, setArrIndex] = useState(initialRandomArray());
 
   let arr = [
     [beatrix, 'Beatrix Kiddo'],
@@ -33,21 +42,6 @@ const Main = () => {
     [calvin, 'Calvin Candie'],
     [ordell, 'Ordell Robbie'],
   ];
-
-  useEffect(() => {
-    const randomizeCards = () => {
-      while (arrIndex.length < 12) {
-        let num = Math.floor(Math.random() * 12);
-        if (arrIndex.indexOf(num) === -1) {
-          setArrIndex([...arrIndex, `Entry ${arrIndex.length}`]);
-        }
-      }
-    };
-
-    return () => {
-      randomizeCards();
-    };
-  }, []);
 
   return (
     <div className='main'>

@@ -5,6 +5,8 @@
   --header-underline: #251c188e;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+
 @font-face {
   font-family: Goudy-Heavy;
   src: url(../../assets/fonts/goudy-heavy.otf);
