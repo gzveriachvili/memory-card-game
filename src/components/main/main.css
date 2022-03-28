@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+:root {
+  --card-border: rgba(255, 255, 255, 0.14);
+  --card-bg: #ee162a;
+  --card-text: #f3f1e4;
+}
+
+.main {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > div {
+  color: #fff;
+
+  -webkit-box-shadow: 0px 0px 7px 2px var(--card-border);
+  box-shadow: 0px 0px 7px 2px var(--card-border);
+  border-radius: 8px;
+}
+
+.container {
+  display: grid;
+  gap: 35px;
+  grid-template-rows: repeat(2, 200px);
+  grid-template-columns: repeat(6, 200px);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+
+  transition: 0.2s ease-in-out;
+}
+
+.item img {
+  width: 200px;
+  height: 170px;
+  display: block;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.item .description {
+  background-color: var(--card-bg);
+  border-radius: 0px 0px 8px 8px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: inset 0px 0px 15px 5px #000000b0;
+  box-shadow: inset 0px 0px 15px 5px #000000b0;
+}
+
+.item:hover {
+  cursor: pointer;
+
+  -webkit-box-shadow: 0px 1px 15px 5px #f3ac12;
+  box-shadow: 0px 1px 15px 5px #f3ac12;
+}
+
+.item .description p {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+}
