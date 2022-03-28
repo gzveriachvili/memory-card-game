@@ -1,4 +1,5 @@
 import '../header/header.css';
+import { ImTrophy, ImMeter } from 'react-icons/im';
 
 const Header = () => {
   return (
@@ -13,10 +14,11 @@ const Header = () => {
         </div>
         <div className='score'>
           <h3>
-            Score: <span className='current-score'>0</span>{' '}
+            <ImMeter></ImMeter>Score: <span className='current-score'>0</span>{' '}
           </h3>
           <h3>
-            Best Score: <span className='best-score'>0</span>
+            <ImTrophy></ImTrophy>Best Score:{' '}
+            <span className='best-score'>0</span>
           </h3>
         </div>
       </header>
