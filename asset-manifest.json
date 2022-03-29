@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe0a3f71.css",
-    "main.js": "/static/js/main.2cfc174b.js",
-    "static/media/Blonde.jpg": "/static/media/Blonde.5698440c1245c48940b2.jpg",
-    "static/media/Cliff.webp": "/static/media/Cliff.0995fe644a742c258272.webp",
-    "static/media/Max.jpg": "/static/media/Max.09b8b9b644b57abe1aaf.jpg",
-    "static/media/background.svg": "/static/media/background.1ebaa20a7dfce2040af9.svg",
-    "static/media/Vincent.webp": "/static/media/Vincent.07f102a9e1e7f6197c84.webp",
-    "static/media/Beatrix.webp": "/static/media/Beatrix.1150db8105e3214bf4e2.webp",
-    "static/media/Mia.webp": "/static/media/Mia.f85125a94076405b9668.webp",
-    "static/media/Calvin.jpg": "/static/media/Calvin.78418771f030ebef4f7d.jpg",
-    "static/media/Ordell.webp": "/static/media/Ordell.c0c1ac8007feb1bb4dd1.webp",
-    "static/media/Django.webp": "/static/media/Django.dddc45a6612221bd9adc.webp",
-    "static/media/Jules.webp": "/static/media/Jules.e9443f0f7b5fba9806bd.webp",
-    "static/media/Hans.webp": "/static/media/Hans.d6625048c0a279cde42c.webp",
-    "static/media/goudy-heavy.otf": "/static/media/goudy-heavy.8b32bcfce85f59a172d7.otf",
-    "static/media/Jackie.webp": "/static/media/Jackie.ba4f71cbdccb0e8de3ca.webp",
-    "index.html": "/index.html",
-    "main.fe0a3f71.css.map": "/static/css/main.fe0a3f71.css.map",
-    "main.2cfc174b.js.map": "/static/js/main.2cfc174b.js.map"
+    "main.css": "/memory-card-game/static/css/main.707ede02.css",
+    "main.js": "/memory-card-game/static/js/main.54dd0343.js",
+    "static/media/Blonde.jpg": "/memory-card-game/static/media/Blonde.5698440c1245c48940b2.jpg",
+    "static/media/Cliff.webp": "/memory-card-game/static/media/Cliff.0995fe644a742c258272.webp",
+    "static/media/Max.jpg": "/memory-card-game/static/media/Max.09b8b9b644b57abe1aaf.jpg",
+    "static/media/background.svg": "/memory-card-game/static/media/background.1ebaa20a7dfce2040af9.svg",
+    "static/media/Vincent.webp": "/memory-card-game/static/media/Vincent.07f102a9e1e7f6197c84.webp",
+    "static/media/Beatrix.webp": "/memory-card-game/static/media/Beatrix.1150db8105e3214bf4e2.webp",
+    "static/media/Mia.webp": "/memory-card-game/static/media/Mia.f85125a94076405b9668.webp",
+    "static/media/Calvin.jpg": "/memory-card-game/static/media/Calvin.78418771f030ebef4f7d.jpg",
+    "static/media/Ordell.webp": "/memory-card-game/static/media/Ordell.c0c1ac8007feb1bb4dd1.webp",
+    "static/media/Django.webp": "/memory-card-game/static/media/Django.dddc45a6612221bd9adc.webp",
+    "static/media/Jules.webp": "/memory-card-game/static/media/Jules.e9443f0f7b5fba9806bd.webp",
+    "static/media/Hans.webp": "/memory-card-game/static/media/Hans.d6625048c0a279cde42c.webp",
+    "static/media/goudy-heavy.otf": "/memory-card-game/static/media/goudy-heavy.8b32bcfce85f59a172d7.otf",
+    "static/media/Jackie.webp": "/memory-card-game/static/media/Jackie.ba4f71cbdccb0e8de3ca.webp",
+    "index.html": "/memory-card-game/index.html",
+    "main.707ede02.css.map": "/memory-card-game/static/css/main.707ede02.css.map",
+    "main.54dd0343.js.map": "/memory-card-game/static/js/main.54dd0343.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe0a3f71.css",
-    "static/js/main.2cfc174b.js"
+    "static/css/main.707ede02.css",
+    "static/js/main.54dd0343.js"
   ]
 }
