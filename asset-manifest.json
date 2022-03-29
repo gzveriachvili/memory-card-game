@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/gzveriachvili/memory-card-game/static/css/main.0b173934.css",
+    "main.js": "/gzveriachvili/memory-card-game/static/js/main.87f4b11c.js",
+    "static/media/Blonde.jpg": "/gzveriachvili/memory-card-game/static/media/Blonde.5698440c1245c48940b2.jpg",
+    "static/media/Cliff.webp": "/gzveriachvili/memory-card-game/static/media/Cliff.0995fe644a742c258272.webp",
+    "static/media/Max.jpg": "/gzveriachvili/memory-card-game/static/media/Max.09b8b9b644b57abe1aaf.jpg",
+    "static/media/background.svg": "/gzveriachvili/memory-card-game/static/media/background.1ebaa20a7dfce2040af9.svg",
+    "static/media/Vincent.webp": "/gzveriachvili/memory-card-game/static/media/Vincent.07f102a9e1e7f6197c84.webp",
+    "static/media/Beatrix.webp": "/gzveriachvili/memory-card-game/static/media/Beatrix.1150db8105e3214bf4e2.webp",
+    "static/media/Mia.webp": "/gzveriachvili/memory-card-game/static/media/Mia.f85125a94076405b9668.webp",
+    "static/media/Calvin.jpg": "/gzveriachvili/memory-card-game/static/media/Calvin.78418771f030ebef4f7d.jpg",
+    "static/media/Ordell.webp": "/gzveriachvili/memory-card-game/static/media/Ordell.c0c1ac8007feb1bb4dd1.webp",
+    "static/media/Django.webp": "/gzveriachvili/memory-card-game/static/media/Django.dddc45a6612221bd9adc.webp",
+    "static/media/Jules.webp": "/gzveriachvili/memory-card-game/static/media/Jules.e9443f0f7b5fba9806bd.webp",
+    "static/media/Hans.webp": "/gzveriachvili/memory-card-game/static/media/Hans.d6625048c0a279cde42c.webp",
+    "static/media/goudy-heavy.otf": "/gzveriachvili/memory-card-game/static/media/goudy-heavy.8b32bcfce85f59a172d7.otf",
+    "static/media/Jackie.webp": "/gzveriachvili/memory-card-game/static/media/Jackie.ba4f71cbdccb0e8de3ca.webp",
+    "index.html": "/gzveriachvili/memory-card-game/index.html",
+    "main.0b173934.css.map": "/gzveriachvili/memory-card-game/static/css/main.0b173934.css.map",
+    "main.87f4b11c.js.map": "/gzveriachvili/memory-card-game/static/js/main.87f4b11c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b173934.css",
+    "static/js/main.87f4b11c.js"
+  ]
+}
