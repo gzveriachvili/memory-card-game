@@ -118,3 +118,7 @@
   font-family: 'Syne', sans-serif;
   font-size: 0.9rem;
 }
+
+.scores {
+  display: none;
+}

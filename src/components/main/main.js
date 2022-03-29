@@ -111,8 +111,10 @@ const Main = () => {
 
   return (
     <div className='main'>
-      <p className='scoreM'>{score}</p>
-      <p className='bestM'>{bestScore}</p>
+      <div className='scores'>
+        <p className='scoreM'>{score}</p>
+        <p className='bestM'>{bestScore}</p>
+      </div>
       <div className='container'>
         <div className='item'>
           <div className='item-decoration one'></div>
