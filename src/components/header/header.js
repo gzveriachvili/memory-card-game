@@ -1,7 +1,7 @@
 import '../header/header.css';
 import { ImTrophy, ImMeter } from 'react-icons/im';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className='header'>
       <header>
@@ -16,11 +16,12 @@ const Header = () => {
 
         <div className='score'>
           <h3>
-            <ImMeter></ImMeter>Score: <span className='current-score'>0</span>{' '}
+            <ImMeter></ImMeter>Score:{' '}
+            <span className='current-score'>{props.score}</span>{' '}
           </h3>
           <h3>
             <ImTrophy></ImTrophy>Best Score:{' '}
-            <span className='best-score'>0</span>
+            <span className='best-score'>{props.best}</span>
           </h3>
         </div>
       </header>

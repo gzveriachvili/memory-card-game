@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import '../main/main.css';
+
 import beatrix from '../../assets/img/Beatrix.webp';
 import jules from '../../assets/img/Jules.webp';
 import hans from '../../assets/img/Hans.webp';
@@ -59,12 +60,10 @@ const Main = () => {
     };
 
     const addName = (e) => {
-      let itemName =
-        e.target.getAttribute('data-name').charAt(0) +
-        e.target.getAttribute('data-name').charAt(1);
+      let itemName = e.target.getAttribute('data-name');
       console.log(e);
 
-      setScoreArr((oldArr) => [...oldArr, itemName]);
+      setScoreArr((scoreArr) => scoreArr.concat(itemName));
     };
 
     const cards = document.querySelectorAll('.item');
@@ -80,15 +79,41 @@ const Main = () => {
   }, []);
 
   useEffect(() => {
-    console.log(scoreArr);
+    const updatePoints = (string) => {
+      let count = 0;
+      scoreArr.forEach((v) => {
+        if (v === string) {
+          count++;
+        }
+      });
+      if (count === 2) {
+        setScoreArr([]);
+        setScore(0);
+      } else {
+        setScore(score + 1);
+      }
+    };
+
+    for (const card of scoreArr) {
+      updatePoints(card);
+    }
   }, [scoreArr]);
+
+  useEffect(() => {
+    if (score >= bestScore) {
+      setBestScore(score);
+    }
+    if (score === 12) {
+      setScore(0);
+      setBestScore(0);
+    }
+  }, [score]);
 
   return (
     <div className='main'>
+      <p className='scoreM'>{score}</p>
+      <p className='bestM'>{bestScore}</p>
       <div className='container'>
-        <p style={{ color: 'white' }}>scoreArr: {scoreArr}</p>
-        <p style={{ color: 'white' }}>Score: {score}</p>
-        <p style={{ color: 'white' }}>Best Score: {bestScore}</p>
         <div className='item'>
           <div className='item-decoration one'></div>
           <div className='img-section'>
