@@ -5,7 +5,7 @@ This project is part of [The Odin Project](https://www.theodinproject.com/lesson
 
 ![Preview Image](./src/assets/img/preview.png)
 
-[Live Demo](https://www.theodinproject.com) 🖱️
+[Live Demo](https://gzveriachvili.github.io/memory-card-game/) 🖱️
 
 ## How to install
 
