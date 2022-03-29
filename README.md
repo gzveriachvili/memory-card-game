@@ -1,11 +1,11 @@
 # Memory Card Game made with React
 
 The purpose of this project is to enforce my learnings on lifecycle methods, functional components, and the use of hooks in React.
-This project is part of [The Odin Project](https://www.theodinproject.com) curriculum.
+This project is part of [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-memory-card) curriculum.
 
 ![Preview Image](./src/assets/img/preview.png)
 
-[Live Demo](https://www.theodinproject.com)
+[Live Demo](https://www.theodinproject.com) 🖱️
 
 ## How to install
 

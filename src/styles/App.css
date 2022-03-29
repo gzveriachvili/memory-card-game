@@ -11,4 +11,6 @@
 body {
   background-color: var(--main-bg);
   height: 100vh;
+
+  user-select: none;
 }
