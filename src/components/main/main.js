@@ -97,6 +97,7 @@ const Main = () => {
     for (const card of scoreArr) {
       updatePoints(card);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scoreArr]);
 
   useEffect(() => {
@@ -107,6 +108,7 @@ const Main = () => {
       setScore(0);
       setBestScore(0);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [score]);
 
   return (
